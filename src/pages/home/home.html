@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title><header [title]="pageTitle"></header></ion-title>
+    </ion-navbar>
+  </ion-header>
+  <ion-content padding>
+    <h2>Welcome {{ userEmail }}</h2>
+    <h3>Do all your stuff here.</h3>
+    <br>
+    <h2>Level </h2>
+    <p>{{ level }}</p>
+    <br>
+    <h2>Is plugged in </h2>
+    <p> {{ isPlugged }}</p>
+
+    <h3>Ionic GoogleMaps Starter</h3>
+    <div id="map_canvas">
+      <!-- <button ion-button (click)="onButtonClick($event)">Start Demo</button> -->
+    </div>
+  </ion-content>
